@@ -8,7 +8,9 @@ You can run the following command to train models with our algorithm.
 
 ```
 bash scripts/coop_pll.sh [DATASET] [CONFIG] [CTX_LEN] [PARTIAL_RATE] [TASK_NAME] [PLL_ALG] [GPU_ID]
-
+```
+For example:
+```
 bash scripts/coop_pll.sh imagenet rn50 16 0.1 test_PiCO PiCO 0
 ```
 We support these partial label learning training objectives: CC, RC, LWS, CAVL, PlCR, PiCO, NAIVE
