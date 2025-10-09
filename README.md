@@ -16,7 +16,7 @@ We support these partial label learning training objectives: CC, RC, LWS, CAVL, 
 # Citation
 If you find our work useful, please cite it using the following BibTeX entry:
 ```
-@article{zhang2025rvpt,
+@article{zhang2025tuning,
     title={Tuning Vision-Language Models with Candidate Labels by Prompt Alignment},
     author={Zhifang Zhang and Yuwei Niu and Xin Liu and Beibei Li},
     journal={DASFAA},
